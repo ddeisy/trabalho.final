@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+header { 
+    font-size: 30px;
+    display: flex;
+    flex-direction:column;
+    place-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(252, 49, 117);
+    color:#fff
+}
+main{
+    padding: 30px 50px;
+}
+form {
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 45px;
+    display: flex;
+    flex-direction:column;
+    place-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction:column;
+    place-items: center;
+}
+.box { 
+    width: 150px;
+	display: inline-block;
+    text-decoration: none;
+    border: none;
+    margin: 30px;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+    text-align: left;
+}
+.menu li{
+    display: inline-block; 
+}
+
+.menu a{
+    text-decoration: none;
+    color: white; 
+    width: 100px; 
+    display:  inline-block;  
+    padding: 20px 15px;
+    background-color: rgb(252, 49, 117);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left
+}
+.menu a:hover{
+    background-color: rgb(255, 0, 85);
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul{
+    top:0px;
+    position: absolute;
+}
+
+.cadastro{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: rgb(252, 49, 117);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+button:hover{
+    background-color: rgb(255, 0, 85);
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+.tabela{
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid rgb(236, 233, 233);
+    width: 100%;
+}
+table th{
+    background-color: rgb(241, 229, 229);
+    text-align: left;
+}
+table td img{
+    width: 20px;
+}
+.center{
+    text-align: center;
+}
+.title{
+    font-size: 35px;
+}
